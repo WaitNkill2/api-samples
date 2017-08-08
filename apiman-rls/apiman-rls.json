@@ -279,6 +279,9 @@
         },
         "links": {
           "$ref": "#/definitions/LimitLinks"
+        },
+        "test": {
+          "type": "string"
         }
       },
       "example": {
