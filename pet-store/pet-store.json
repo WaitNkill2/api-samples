@@ -825,7 +825,15 @@
             "description": "User not found"
           }
         }
-      }
+      },
+      "parameters": [
+        {
+          "name": "username",
+          "in": "path",
+          "required": true,
+          "type": "string"
+        }
+      ]
     }
   },
   "tags": [
