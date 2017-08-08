@@ -832,6 +832,11 @@
           "in": "path",
           "required": true,
           "type": "string"
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "type": "integer"
         }
       ]
     }
