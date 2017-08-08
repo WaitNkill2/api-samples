@@ -218,6 +218,11 @@
           "in": "path",
           "required": true,
           "type": "string"
+        },
+        {
+          "name": "Test",
+          "in": "query",
+          "type": "string"
         }
       ]
     }
